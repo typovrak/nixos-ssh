@@ -2,7 +2,7 @@
 
 nixos-ssh = fetchGit {
 	url = "https://github.com/typovrak/nixos-ssh.git";
-	ref "main";
+	ref = "main";
 }
 
 (import "${nixos-ssh}/configuration.nix")
