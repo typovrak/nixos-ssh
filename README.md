@@ -12,7 +12,7 @@
 
 - 🔄 **Idempotent :** Safe to run on every ```nixos-rebuild``` without overwriting existing keys.
 
-- ⚙️ **Minimal configuration :** Zero-friction setup with sensible defaults.
+- ⚙️ **Minimal configuration :** Zero friction setup with sensible defaults.
  
 - 💾 **No backup needed :** No ```rm -rf``` in this module.
 
