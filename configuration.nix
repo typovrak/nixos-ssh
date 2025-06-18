@@ -10,6 +10,11 @@ in {
 		mkdir -p ${home}/.ssh
 		chown ${username}:${group} ${home}/.ssh
 		chmod 700 ${home}/.ssh
+
+
+		cp ${./config} ${home}/.ssh
+		chown ${username}:${group} ${home}/.ssh
+		chmod 600 ${home}/.ssh
 	'';
 
 	environment.systemPackages = with pkgs; [
