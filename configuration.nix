@@ -12,9 +12,9 @@ in {
 		chmod 700 ${home}/.ssh
 
 
-		cp ${./config} ${home}/.ssh
-		chown ${username}:${group} ${home}/.ssh
-		chmod 600 ${home}/.ssh
+		cp ${./config} ${home}/.ssh/config
+		chown ${username}:${group} ${home}/.ssh/config
+		chmod 600 ${home}/.ssh/config
 	'';
 
 	environment.systemPackages = with pkgs; [
